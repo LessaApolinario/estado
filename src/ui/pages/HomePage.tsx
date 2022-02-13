@@ -16,11 +16,11 @@ function HomePage() {
   }
 
   function multiplicar() {
-    setNumber(number * 1)
+    setNumber(number * 2)
   }
 
   function dividir() {
-    setNumber(number / 1)
+    setNumber(number / 2)
   }
 
   return (
@@ -40,12 +40,12 @@ function HomePage() {
         />
 
         <Button
-          text="Multiplicar por 1"
+          text="Multiplicar por 2"
           onClick={multiplicar}
         />
 
         <Button
-          text="Dividir por 1"
+          text="Dividir por 2"
           onClick={dividir}
         />
       </div>
