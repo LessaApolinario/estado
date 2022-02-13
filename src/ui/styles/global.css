@@ -1,9 +1,25 @@
+@font-face {
+  src: url(../../assets/fonts/Nunito-Regular.ttf);
+  font-family: 'elements';
+}
+
+@font-face {
+  src: url(../../assets/fonts/Lato-Regular.ttf);
+  font-family: 'title';
+}
+
 * {
   padding: 0;
   margin: 0;
+
+  font-family: 'elements';
 }
 
-html, body {
+html, body, #root {
   height: 100%;
   width: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'title';
 }
