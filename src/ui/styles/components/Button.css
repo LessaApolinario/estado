@@ -15,3 +15,11 @@ button.btn {
 button.btn:not(:first-child) {
   margin-left: 1.5rem;
 }
+
+button.btn:nth-of-type(odd) {
+  background-color: #98B4AA;
+}
+
+button.btn:nth-of-type(even) {
+  background-color: #74959A;
+}
