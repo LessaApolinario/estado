@@ -1,8 +1,18 @@
 import '../styles/components/Button.css'
 
-function Button() {
+interface ButtonProps {
+  text: string
+  onClick(): void
+}
+
+function Button(props: ButtonProps) {
   return (
-    <button></button>
+    <button
+      className="btn"
+      onClick={props.onClick}
+    >
+      {props.text}
+    </button>
   )
 }
 
