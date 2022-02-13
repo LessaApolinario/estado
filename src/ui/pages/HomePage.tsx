@@ -46,7 +46,7 @@ function HomePage() {
 
         <Button
           text="Dividir por 1"
-          onClick={subtrair}
+          onClick={dividir}
         />
       </div>
     </div>
